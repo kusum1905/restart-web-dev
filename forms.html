@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+</head>
+<body>
+    <!-- forms are used to collect data from the user -->
+     <form action="/action">
+    <center><h1>Registration Form</h1></center>
+<table align="center" border="1">
+    <tr>
+        <td>Student no :</td>
+        <td><input type="text" name="SNO"></input></td>
+    </tr>
+    <tr>
+    <td>Name :</td>
+    <td><input type="text" name="name"></input  </td>
+    </tr>
+
+    <tr>
+    <td>Gender :</td>
+    <td><input type="radio" name="gen">Male</input &nbsp  </td>
+    <td><input type="radio" name="gen">Female</input  </td>
+    </tr>
+    
+    <tr>
+    <td>password :</td>
+    <td><input type="password" name="pwd"></input  </td>
+    </tr>
+
+    <tr>
+    <td>Branch :</td>
+    
+    <td><select name="Branch" id="branch"> 
+    <option value="CSE">CSE</option>
+    <option value="ME">ME</option>
+    <option value="CA">CA</option>
+    </select>
+    </td>
+    
+    
+     </tr>
+
+     <tr>
+        <td>hobbies</td>
+        <td><input type="checkbox" name="cb">playing cricket</input> &nbsp </td>
+         <td><input type="checkbox" name="cb">dancing</input> &nbsp </td>
+     </tr>
+
+     <tr>
+        <td>Address :</td>
+        <td><textarea name="address" rows="4"  cols="7"></textarea></td>  
+     </tr>
+
+     <tr>
+        <td><input type="submit"  name="submit" value="submit"></input></td>
+         <td><input type="reset"  name="reset" value="reset"></input></td>
+     </tr>
+    </table>
+     </form>
+
+    </hr>
+    <form action="https://www.youtube.com/results">
+    <input type="text" placeholder="search in youtube" name="search_query" />
+    <button>search</button>
+
+    </form>
+</hr>
+<form action="https://www.google.com/search?gs_ssp">
+    <input type="text" placeholder="search in google" name="q" />
+    <button>search</button>
+</form>
+</hr>
+
+</br>
+<label for="age">I am 18+</label>
+<input type="checkbox" name="age" id="age" />
+
+<div>
+    <input type="radio" name="fruits" id="fruits"/>
+    <label for="fruits">mangot</label>
+     <input type="radio" name="fruits" id="fruits"/>
+    <label for="fruits">banana</label>
+     <input type="radio" name="fruits" id="fruits"/>
+    <label for="fruits">orange</label>
+     <input type="radio" name="fruits" id="fruits"/>
+    <label for="fruits">papaya</label>
+</div>
+<div>
+    chhose your subjects
+    <input type="checkbox" id="math" name="subjects"/>
+    <label for="math">math</label>
+    <input type="checkbox" id="eng" name="subjects"/>
+    <label for="eng">english</label>
+    <input type="checkbox" id="bio" name="subjects"/>
+    <label for="bio">biology</label>
+</div>
+
+<div>
+    choose your proffesion
+    <select name="profession" id="prof">
+        <option value="student">student</option>
+        <option value="developer">developer</option>
+    </select>
+</div>
+<div>
+    <label for="vol">select your volume level :</label>
+    <input type="range" id="vol" min="0" max="100" name="vol" step="20"/>
+    <button>submit</button>
+</div>
+</form>
+</hr>
+
+<form action="/action">
+<h1>Registration form</h1>
+<input type="text" placeholder="enter first name"/>
+<input type="text" placeholder="last name"/>
+<label for="gen">please select gender</label>
+<select name="gen" id="gen" >
+    <option value="male">male</option>
+    <option value="female">female</option>
+</select>
+<div>
+    do you agree with all terms of services?
+<input type="checkbox" id="agree_tos" name="agree_tos" />
+yes i agree
+</br>
+<button>register</button>
+
+</form>
+</body>
+</html>
